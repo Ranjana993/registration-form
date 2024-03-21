@@ -28,8 +28,8 @@ const RegistrationForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="m-auto mb-12 bg-white w-1/2 px-14 mt-12 py-12 flex flex-col space-y-4">
-      <h1 className="text-5xl my-2 text-center">Registration Form  </h1>
+    <form onSubmit={handleSubmit} className="m-auto mb-12 bg-white w-1/2 px-14 mt-6 py-4 flex flex-col space-y-4">
+      <h1 className="text-4xl text-center">Registration Form  </h1>
       <div>
         <label htmlFor="Name">Enter your name : </label><input
           type="text"
@@ -37,7 +37,7 @@ const RegistrationForm = () => {
           value={values.name}
           onChange={handleChange}
           placeholder="Name"
-          className="border border-slate-800 h-10 px-4 w-full "
+          className="border border-slate-800 h-9 px-4 w-full "
         />
       </div>
       <div>
@@ -48,7 +48,7 @@ const RegistrationForm = () => {
           value={values.email}
           onChange={handleChange}
           placeholder="Email"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
       <div>
@@ -59,7 +59,7 @@ const RegistrationForm = () => {
           value={values.phoneNumber}
           onChange={handleChange}
           placeholder="Phone Number"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
       <div>
@@ -70,23 +70,9 @@ const RegistrationForm = () => {
           value={values.password}
           onChange={handleChange}
           placeholder="Password"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
-
-
-      <div>
-        <label htmlFor="address">Address </label>
-        <input
-          type="text"
-          name="address"
-          value={values.address}
-          onChange={handleChange}
-          placeholder="Address"
-          className="border border-slate-800 h-10 px-4 w-full"
-        />
-      </div>
-
       <div>
         <label htmlFor="city">City Name </label>
         <input
@@ -95,7 +81,7 @@ const RegistrationForm = () => {
           value={values.city}
           onChange={handleChange}
           placeholder="City"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
 
@@ -107,7 +93,7 @@ const RegistrationForm = () => {
           value={values.state}
           onChange={handleChange}
           placeholder="State"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
 
@@ -119,7 +105,7 @@ const RegistrationForm = () => {
           value={values.country}
           onChange={handleChange}
           placeholder="Country"
-          className="border border-slate-800 h-10 px-4 w-full"
+          className="border border-slate-800 h-9 px-4 w-full"
         />
       </div>
 
